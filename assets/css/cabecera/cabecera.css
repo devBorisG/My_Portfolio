@@ -1,0 +1,41 @@
+.cabecera__nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: var(--size-text-nav-cell);
+    font-family: var(--font);
+    background-color: var(--primary-color);
+}
+
+.cabecera__referencia{
+    text-decoration: none;
+}
+
+.cabecera__descripcion{
+    color: var(--text-color);
+}
+
+.cabecera__imagen{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cabecera__contenido{
+    position: relative;
+}
+
+.cabecera{
+    position: sticky;
+    top: 0;
+}
+
+.cabecera__links{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,21 @@
+.sobremi{
+    height: calc(100vh - 36px);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobremi__descripcion{
+    padding: 30px;
+    text-align: justify;
+}
+
+.sobremi__redes{
+    text-align: center;
+}
+
+.sobremi__link:hover{
+    transform: scale(1.2);
+}

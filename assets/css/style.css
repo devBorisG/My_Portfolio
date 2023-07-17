@@ -1,0 +1,38 @@
+*{
+    font-family: var(--font)
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.titulo{
+    color: var(--secondary-color);
+    font-size: var(--size-title-cell);
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.contenedor{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--secondary-color);
+    box-shadow: -5px 5px 4px 0px rgba(0, 0, 0, 0.90);
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodapie{
+    color: var(--text-color);
+    text-align: center;
+    font-family: var(--font);
+    font-size: small;
+    margin: 5px;
+}

@@ -1,0 +1,45 @@
+.principal {
+    height: calc(100vh - 36px);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principal__titulo {
+    font-size: var(--size-title-cell);
+    margin-bottom: 20px;
+}
+
+.principal__descripcion {
+    font-size: var(--size-text-cell);
+}
+
+.principal__links{
+    margin-top: 15px;
+}
+
+.principal__contenido {
+    display: block;
+    white-space: nowrap;
+    width: 11ch;
+    animation: typing 2s steps(13), blink 0.5s infinite step-end alternate;
+    border-right: 4px solid;
+    overflow: hidden;
+    margin-bottom: 20px;
+    font-size: var(--size-title-cell);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
