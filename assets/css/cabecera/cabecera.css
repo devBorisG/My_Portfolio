@@ -39,3 +39,17 @@
     margin-top: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .cabecera__nav{
+        justify-content: end;
+    }
+
+    .cabecera__descripcion{
+        margin: 0 10px;
+    }
+
+    .cabecera__descripcion:hover{
+        text-decoration: underline;
+    }
+}
+

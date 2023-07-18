@@ -35,3 +35,14 @@
 .proyectos__contenedor{
     height: 420px;
 }
+
+@media screen and (min-width:768px) {
+    .proyectos{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .proyectos__seccion{
+        width: 35vw;
+    }
+}

@@ -12,10 +12,33 @@
     text-align: justify;
 }
 
+.sobremi__redes svg{
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+}
+
 .sobremi__redes{
     text-align: center;
 }
 
-.sobremi__link:hover{
-    transform: scale(1.2);
+@media screen and (min-width: 768px) {
+
+    .sobremi{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sobremi__redes svg:hover{
+        transform: scale(1.2);
+    }
+
+    .sobremi__descripcion{
+        font-size: var(--size-text-desk-tablet);
+        padding-bottom: 10px;
+    }
+
+    .sobremi__seccion{
+        width: 45vw;
+    }
 }

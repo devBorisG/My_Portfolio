@@ -75,3 +75,22 @@
 .adaptation{
     width: 90%;
 }
+
+@media screen and (min-width:768px) {
+    .habilidades{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .habilidades__seccion{
+        width: 35vw;
+    }
+
+    .habilidades__contenedor{
+        margin: 10px 0;
+    }
+
+    .habilidades__titulo{
+        font-size: var(--size-text-desk-tablet);
+    }
+}
