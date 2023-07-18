@@ -43,6 +43,17 @@
     }
 
     .proyectos__seccion{
-        width: 35vw;
+        width: 45vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .proyectos__contenedor{
+        width: 300px;
+        margin: 20px;
+    }
+
+    .proyectos__contenedor:hover{
+        transform: scale(1.1);
     }
 }

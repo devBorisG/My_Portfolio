@@ -80,17 +80,28 @@
     .habilidades{
         flex-direction: row-reverse;
         justify-content: space-around;
+        align-items: center;
     }
 
     .habilidades__seccion{
+        display: flex;
+        flex-direction: column;
         width: 35vw;
+        justify-content: center;
+        align-items: center;
     }
 
     .habilidades__contenedor{
         margin: 10px 0;
+        width: 35vw;
+        height: 300px;
     }
 
     .habilidades__titulo{
         font-size: var(--size-text-desk-tablet);
+    }
+
+    .habilidades__lenguajes{
+        padding: 0 40px;
     }
 }
