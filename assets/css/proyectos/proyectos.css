@@ -32,11 +32,16 @@
     border-radius: 4px;
 }
 
-.proyectos__contenedor{
-    height: 420px;
+.proyectos__seccion{
+    width: 400px;
 }
 
-@media screen and (min-width:768px) {
+.proyectos__contenedor{
+    height: 420px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width:1024px) {
     .proyectos{
         flex-direction: row;
         justify-content: space-around;
@@ -56,4 +61,18 @@
     .proyectos__contenedor:hover{
         transform: scale(1.1);
     }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .proyectos__seccion{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100vw;
+        font-size: var(--size-text-desk-tablet);
+    }
+
+    .proyectos__contenedor{
+        height: 450px;
+    }
+
 }

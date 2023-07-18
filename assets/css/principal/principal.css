@@ -50,7 +50,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .principal__contenido{
         font-size: var(--size-title-desk-tablet);
     }
@@ -66,5 +66,20 @@
 
     .principal__links svg:hover{
         transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .principal__contenido{
+        font-size: var(--size-title-desk-tablet);
+    }
+
+    .principal__descripcion{
+        font-size: var(--size-text-desk-tablet);
+    }
+
+    .principal__links svg{
+        width: 32px;
+        height: 32px;
     }
 }

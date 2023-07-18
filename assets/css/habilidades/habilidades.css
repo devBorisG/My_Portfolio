@@ -39,6 +39,11 @@
     margin: 2px;
 }
 
+.habilidades__contenedor{
+    margin: 20px 0;
+    height: 250px;
+}
+
 .habilidades__imagen:hover{
     transform: scale(1.2);
 }
@@ -76,7 +81,7 @@
     width: 90%;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1024px) {
     .habilidades{
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -103,5 +108,16 @@
 
     .habilidades__lenguajes{
         padding: 0 40px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .habilidades__contenedor{
+        margin: 30px 0;
+        height: 250px;
+    }
+
+    .habilidades__titulo{
+        font-size: var(--size-text-desk-tablet);
     }
 }

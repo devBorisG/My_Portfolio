@@ -36,7 +36,7 @@
     color: var(--text-color);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .contactame{
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -54,5 +54,26 @@
 
     .formulario__mensaje{
         height: 250px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .contactame__formulario{
+        margin-top: 40px;
+        width: 500px;
+    }
+
+    .formulario__mensaje{
+        height: 200px;
+    }
+
+    .contactame input,textarea{
+        margin: 10px;
+        padding: 20px;
+        font-size: var(--size-text-desk-tablet);
+    }
+
+    .formulario__enviar{
+        width: 150px;
     }
 }
