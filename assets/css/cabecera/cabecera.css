@@ -23,6 +23,10 @@
     left: 0;
 }
 
+.cabecera__logo{
+    display: none;
+}
+
 .cabecera__contenido{
     position: relative;
 }
@@ -40,6 +44,13 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
     .cabecera__nav{
         justify-content: end;
     }
@@ -50,6 +61,13 @@
 
     .cabecera__descripcion:hover{
         text-decoration: underline;
+    }
+
+    .cabecera__logo{
+        display: block;
+        justify-content: start;
+        width: 120px;
+        margin-left: 20px;
     }
 }
 
