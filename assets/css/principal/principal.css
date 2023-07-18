@@ -1,4 +1,5 @@
 .principal {
+    position: relative;
     height: calc(100vh - 36px);
     color: var(--text-color);
     display: flex;
@@ -6,6 +7,21 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.principal__vector::after{
+    content: "";
+    position: absolute;
+    background: url(../../imgs/vector-principal2.svg);
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.principal__overlay{
+    position: absolute;
 }
 
 .principal__titulo {
@@ -30,8 +46,8 @@
 .principal__contenido {
     display: block;
     white-space: nowrap;
-    width: 11ch;
-    animation: typing 2s steps(13), blink 0.5s infinite step-end alternate;
+    width: 10ch;
+    animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
     border-right: 4px solid;
     overflow: hidden;
     margin-bottom: 20px;
