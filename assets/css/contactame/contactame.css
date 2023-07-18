@@ -1,6 +1,6 @@
 .contactame{
     display: flex;
-    height: 100vh;
+    height: calc(100vh - 36px);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -34,4 +34,25 @@
     padding: 10px;
     background-color: var(--complement-color);
     color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+    .contactame{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .contactame__seccion{
+        width: 35vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactame__formulario{
+        width: 25vw;
+    }
+
+    .formulario__mensaje{
+        height: 250px;
+    }
 }

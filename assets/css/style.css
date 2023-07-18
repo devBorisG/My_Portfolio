@@ -53,4 +53,8 @@ a{
     .contenedor{
         margin: 0;
     }
+
+    .rodapie{
+        font-size: 15px;
+    }
 }
